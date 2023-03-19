@@ -37,7 +37,7 @@
 
         <h1>Wek-Mek Trek Company</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, consequatur.</p>
-        <button id="button">Plan Your Trek</button>
+        <button id="button" onclick="back()">Plan Your Trek</button>
 
     </section>
     <section id="services">
@@ -95,7 +95,7 @@
             <input type="text" name="Name" placeholder="Enter your name" class="input">
             <input type="email" name="email" placeholder="Enter your email" class="input">
             <input type="text" name="Phone Number" placeholder="Enter your phone Number" class="input">
-            <div><input type="submit" value="Send" class="btn1"><input type="reset" value="clear" class="btn1"></div>
+            <div><input type="submit" value="Send" class="btn1" onclick="back()"><input type="reset" value="clear" class="btn1"></div>
         </div>
         <div id="follow">
             <h1>Follow Us On</h1>
@@ -119,6 +119,11 @@
 
         <span>&copy;<a href="https://janis.com.np">Janis Adhikari</a> &nbsp; | All the rights are reserved.</span>
     </footer>
+    <script>
+        function back(){
+            window.alert("THis is not connected to backend \n\n\n\nNOTE:this website is only made for educational purpose");
+        }
+    </script>
 </body>
 
 </html>
