@@ -74,4 +74,8 @@
         padding: 20px;
         text-align: center;
     }
+    #content{
+        padding:0px 10px;
+        width:100%;
+    }
 }
