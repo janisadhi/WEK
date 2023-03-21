@@ -50,4 +50,17 @@
         align-items: center;
         margin-left: 0px;
     }
+    #up-sec {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        margin-top: 40px;
+    }
+    #up-sec p{
+        padding:40px;
+    }
 }
