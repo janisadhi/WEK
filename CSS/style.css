@@ -107,7 +107,7 @@
     position: absolute;
     top: 0;
     width: 100%;
-    height: 400px;
+    height: 430px;
     background: url('trek.jpg') no-repeat center center/cover;
     z-index: -2;
     filter: brightness(0.8);
@@ -150,7 +150,7 @@
 
 /* Services section */
 #services {
-    height: 600px;
+    height: auto;
     width: 100%;
     margin: 30px 0px;
     margin-bottom: 0%;
@@ -175,7 +175,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px auto;
+    margin-top: 40px;
     padding: 15px;
 }
 
@@ -184,7 +184,7 @@
     height: 450px;
     width: 400px;
     border: 2px solid black;
-    margin: 10px;
+    margin: 10px auto;
     text-align: center;
 }
 
@@ -218,7 +218,7 @@
 
 #about {
     display: flex;
-    height: 400px;
+    height: auto;
     width: 100%;
     background-image: linear-gradient(360deg,white, rgb(179, 194, 243));
 }
@@ -240,7 +240,7 @@
     height: 200px;
     justify-content: center;
     align-items: center;
-    margin: 70px 20px;
+    margin: 40px auto;
     padding: 10px 40px;
 }
 
@@ -258,13 +258,15 @@ form{
     display:flex;
    
     background-image: linear-gradient(180deg,white,lightblue);
-    height: 600px;
+    height: auto;
     
 }
 #contact-form{
     display:flex;
     flex-direction: column;
     text-align: center;
+    margin-top:40px;
+    align-items: center;
     
 }
 .input{
@@ -280,6 +282,7 @@ form{
 #contact-form h1,#follow h1{
     font-size: 2.3rem;
     text-align: center;
+    margin-top: 70px;
 }
 .btn1{
     width:140px;
@@ -311,6 +314,13 @@ form{
     
 
 }
+#follow div{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+
 .followlogo{
     
     width:100px;
