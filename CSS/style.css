@@ -25,9 +25,7 @@
 
 
 /* for image */
-#left {
-    display: flex;
-}
+
 
 #left img {
     height: 70px;
