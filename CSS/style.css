@@ -182,10 +182,10 @@
 
 .ser {
 
-    height: 450px;
+    height: 480px;
     width: 400px;
     border: 2px solid black;
-    margin: 10px auto;
+    margin: 10px 5px;
     text-align: center;
 }
 
@@ -325,9 +325,9 @@ form{
 
 .followlogo{
     
-    width:100px;
-    height:100px;
-margin:100px 20px;
+    width:60px;
+    height:60px;
+margin:50px 4px;
 }
 .followlogo:hover{
     filter: invert(0.9);
