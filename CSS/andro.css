@@ -2,6 +2,9 @@
     #ser-main {
         flex-wrap: wrap;
     }
+    .ser{
+        width:100%
+    }
 
     #about {
         flex-wrap: wrap;
