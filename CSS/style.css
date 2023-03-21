@@ -238,7 +238,7 @@
 .about {
     display: flex;
 
-    height: 200px;
+    height: auto;
     justify-content: center;
     align-items: center;
     margin: 40px auto;
