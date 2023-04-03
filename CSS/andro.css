@@ -38,14 +38,35 @@
 
 
     }
-
-    #left img {
-        display: none;
+    #navbar{
+        background-color: rgb(5, 5, 5);
+        height: 70px;
+        width: 100%;
+        opacity: 0.4;
+        z-index: -5;
+    }
+    #navbar::before {
+        display:none;
+    }
+    .menu{
+        display:block;
+        position:absolute;
+        top:15px;
+        right:15px;
+        cursor: pointer;
     }
 
-    #middle a {
-        font-size: 1rem;
-        padding: 0px 5px;
+    
+    #middle {
+        display: none;
+        flex-direction: column;
+    }
+    #middle a{
+        color:solid white;
+        font-size:25px;
+    }
+    #middle li {
+        margin-top: 10px;
     }
 
     .followlogo {
